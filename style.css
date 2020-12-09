@@ -173,6 +173,7 @@ a#name:hover {
 a:link.button, a:visited.button {
 	color: var(--green-700);
 	float: right;
+	margin-left: 5px;
 } 
 a:hover.button {
 	color: var(--green-500);
@@ -228,7 +229,6 @@ div#outer {
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100%;
 }
 
 h1, h2, h3 {
