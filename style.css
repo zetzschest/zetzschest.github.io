@@ -113,8 +113,8 @@ ul {
 }
 
 ul li {
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 18px;
+	padding-top: 18px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -125,10 +125,6 @@ ul li.bg {
 	background-color: var(--yellow-050);
 }
 
-
-
-
-
 p.links {
 	float: right;
 	vertical-align: center;
@@ -136,7 +132,6 @@ p.links {
 	padding: 0px;
 	margin: 0px;
 }
-
 
 a:link, a:visited {
 	color: var(--blue-700);
@@ -154,7 +149,6 @@ a:link.top, a:visited.top {
 	color: var(--fc-dark);
 }
 
-
 a:hover.top {
 	color: var(--fc-light);
 }
@@ -170,18 +164,23 @@ a#name:hover {
 	color: var(--fc-light);
 }
 
+p.buttonsright {
+	display: inline;
+	float: right;
+	color: var(--fc-medium);
+}
+
 a:link.button, a:visited.button {
 	color: var(--green-700);
-	float: right;
-	margin-left: 5px;
-} 
+}
+ 
 a:hover.button {
 	color: var(--green-500);
 }
 
-p.info {
+div.info {
 	color: var(--fc-medium);
-	display: inline;
+	display: block;
 }
 
 
@@ -238,6 +237,22 @@ h1, h2, h3 {
 p.nolink {
 	color: var(--blue-700);
 	display: inline;
+}
+
+div.titel_and_buttons {
+	color: var(--fc-medium);
+	display: inline-block;
+	width: 100%;
+}
+
+div.left {
+	display: inline-block;
+	float: left;
+}
+
+div.right {
+	display: inline-block;
+	float: right;
 }
 
 img#self {
