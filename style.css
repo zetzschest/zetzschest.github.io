@@ -194,6 +194,11 @@ div.info {
 	display: block;
 }
 
+img#linkedin {
+	height: 25px;
+	margin-bottom: -5px;
+}
+
 
 
 p.timeloc  {
@@ -204,7 +209,7 @@ p.timeloc  {
 }
 
 div#navi {
-	max-width: 1000px;
+	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -227,7 +232,7 @@ div#naviinside {
 
 
 div.container {
-	max-width: 1000px;
+	max-width: 1100px;
 	padding-top: 75px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -236,7 +241,7 @@ div.container {
 
 div#outer {
 	box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
-	max-width: 1000px;
+	max-width: 1100px;
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
