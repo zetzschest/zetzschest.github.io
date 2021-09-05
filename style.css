@@ -195,8 +195,11 @@ div#awards {
 }
 
 @media only screen and (max-width: 600px) {
-	p#intro {
+	body {
 		font-size: 16pt;
+	}
+	p#intro {
+		font-size: 18pt;
 	}
 
 	ul li {
@@ -217,5 +220,13 @@ div#awards {
 		padding-left: 20px;
 		padding-right: 20px;
 		background-color: white;
+	}
+
+	img#self {
+		float: right;
+		border-radius: 10px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		height: 160px;
 	}
 }
