@@ -205,8 +205,8 @@ div#awards {
 	ul li {
 		padding-bottom: 15px;
 		padding-top: 15px;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 
 	div#naviinside {
@@ -216,17 +216,21 @@ div#awards {
 
 	div.container {
 		max-width: 1100px;
-		padding-top: 35px;
+		padding-top: 60px;
 		padding-left: 20px;
 		padding-right: 20px;
 		background-color: white;
 	}
-
+	
 	img#self {
 		float: right;
 		border-radius: 10px;
 		margin-left: 20px;
 		margin-bottom: 20px;
-		height: 160px;
+		height: 190px;
+	}
+
+	p.links {
+		display:none;
 	}
 }
