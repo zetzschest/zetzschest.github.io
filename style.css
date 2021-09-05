@@ -17,6 +17,12 @@ body {
 	background-color: #484819;  	
 }
 
+@media only screen and (max-width: 600px) {
+	p#intro {
+		font-size: 16pt;
+	}
+}
+
 p#intro {
 	font-size: 19pt;
 }
@@ -25,6 +31,15 @@ ul {
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	ul li {
+		padding-bottom: 15px;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 
 ul li {
@@ -114,6 +129,8 @@ div#navi {
 	margin-right: auto;
 }
 
+
+
 div#navicontainer {
 	position: fixed;
 	left, top, right: 0px;
@@ -136,6 +153,21 @@ div.container {
 	padding-left: 50px;
 	padding-right: 50px;
 	background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	div#naviinside {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	div.container {
+		max-width: 1100px;
+		padding-top: 75px;
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: white;
+	}
 }
 
 div#outer {
