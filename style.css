@@ -60,7 +60,7 @@ a:hover {
 	text-decoration: none;
 }
 
-a:link.top, a:visited.top {
+a:link.top, a:visited.top, a:active.top {
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 14pt;
 	color: var(--fc-dark);
