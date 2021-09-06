@@ -159,6 +159,10 @@ div.right {
 	float: right;
 }
 
+h2 {
+	font-size: 22pt;
+}
+
 img#self {
 	float: right;
 	border-radius: 10px;
