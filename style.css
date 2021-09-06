@@ -131,6 +131,7 @@ div#outer {
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 70px;
 }
 
 h1, h2, h3 {
@@ -183,9 +184,6 @@ p.space {
 	display: inline;
 }
 
-.navbtn {
-	display: none;
-}
 
 @media only screen and (max-width: 600px) {
 	div#links {
@@ -228,7 +226,7 @@ p.space {
 	img#self {
 		float: right;
 		border-radius: 10px;
-		margin-left: 20px;
+		margin-left: 20px;	
 		margin-bottom: 20px;
 		height: 190px;
 	}
@@ -237,6 +235,13 @@ p.space {
 		float: right;
 	}
   
+	.top-lbl {
+		display: block;
+		padding-right: 20px;
+		border-top: 1pt dotted var(--black-150);
+		padding-left: 22px;
+  	}
+
 	a.top {
 		display: block;
 		padding-right: 20px;
@@ -247,7 +252,6 @@ p.space {
 	a.top#topentry {
 		border-top: 1pt solid var(--black-150);
 	}
-
 
   	.menu-icon {
 		float: right;
@@ -318,5 +322,9 @@ p.space {
 		transform: rotate(45deg);
 		top:0;
   	}
+
+	#publications:target  ~ div#links {
+		display: none;
+	}
 
 	}
