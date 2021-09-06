@@ -203,10 +203,10 @@ div#awards {
 	}
 
 	ul li {
-		padding-bottom: 20px;
-		padding-top: 20px;
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-bottom: 17px;
+		padding-top: 17px;
+		padding-left: 22px;
+		padding-right: 22px;
 	}
 
 	div#naviinside {
@@ -219,6 +219,7 @@ div#awards {
 		padding-top: 60px;
 		padding-left: 20px;
 		padding-right: 20px;
+		margin: 0px;
 		background-color: white;
 	}
 	
