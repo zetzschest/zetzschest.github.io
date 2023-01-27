@@ -87,6 +87,12 @@ img.social {
 	margin-left: 25px;
 }
 
+img.social2 {
+	height: 25px;
+	margin-bottom: -5px;
+	margin-left: 5px;
+}
+
 p.timeloc  {
 	font-family: Helvetica, "Helvetica Neue", sans-serif;
 	color: var(--fc-medium);
