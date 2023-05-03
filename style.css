@@ -4,9 +4,10 @@ html {
 
 body {
 	--black-150: #c8ccd0;
-	--yellow-050: #fdf7e3;
+	--yellow-050: #fffbec;
+	--green-050: #f1f3ec;
 	--fc-dark: #0c0d0e;
-	--fc-light: #6a737c;	
+	--fc-light: #5e666d;	
 	--fc-medium: #3c4146;
 	font-family: "EB Garamond", "Helvetica-Neue", Helvetica, sans-serif;
 	color: var(--fc-dark);
@@ -17,6 +18,7 @@ body {
 	background-color: white;
 /* 	background-color: #484819;  	
  */}
+
 
 p#intro {
 	font-size: 19pt;
@@ -54,7 +56,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	color: #0b7eff;
+	color: #0c76ee;
 	text-decoration: none;
 }
 
@@ -65,7 +67,7 @@ div#naviinside a {
 }
 
 div#naviinside a:hover {
-	color: var(--fc-light); 
+	color: var(--fc-light);
 }
 
 
@@ -105,7 +107,7 @@ div#navi {
 	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: ;
+	background-color: var(--green-050);
 }
 
 div#navicontainer {
@@ -114,9 +116,9 @@ div#navicontainer {
 	width: 100%;
 	min-height: 60px;
 	line-height: 60px;
-	background-color: white;
+	background-color: var(--green-050);
+	color: var(--fc-dark);
 	box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
-	background: white;
 }
 
 div#naviinside {
@@ -195,6 +197,7 @@ div#awards {
 p.space {
 	display: inline;
 }
+
 
 
 @media only screen and (max-width: 600px) {
