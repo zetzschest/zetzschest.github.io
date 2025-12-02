@@ -3,8 +3,8 @@ html {
 }
 
 body {
-	--black-150: #c8ccd0;
-	--yellow-050: #fffbec;
+	--black-150: #bababa;
+	--yellow-050: #fefcf2;
 	--green-050: #f1f3ec;
 	--fc-dark: #0c0d0e;
 	--fc-light: #5e666d;	
@@ -35,6 +35,12 @@ ul li {
 	padding-top: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1pt dotted var(--black-150);
+	background-color: var(--yellow-050);
+	border-radius: 20px;
+
 }
 
 ul li.bg {
