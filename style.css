@@ -349,3 +349,32 @@ p.space {
 	}
 
 	}
+
+
+
+
+
+/* Container inside each publication block */
+.pub-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+/* Thumbnail image */
+.pub-thumb {
+	width: 100px;      /* adjust as desired */
+	height: auto;
+    flex-shrink: 0;
+}
+
+.thumb-link {
+    display: block;
+    width: 100px;     /* ← FIX */
+    overflow: hidden;
+    border-radius: 8px;
+    line-height: 0;
+    flex-shrink: 0;   /* also recommended */
+}
+
